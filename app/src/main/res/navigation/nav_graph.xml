@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/BlogPostFragment">
+
+    <fragment
+        android:id="@+id/BlogPostFragment"
+        android:name="com.example.cardview.BlogPostFragment"
+        android:label="@string/blog_post_label">
+        <action
+            android:id="@+id/action_BlogPost_to_BlogPostDetail"
+            app:destination="@+id/BlogPostDetailViewFragment"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/BlogPostDetailViewFragment"
+        android:name="com.example.cardview.BlogPostDetailViewFragment"
+        android:label="blog detail label">
+
+        <argument
+            android:name="title"
+            app:argType="string"/>
+        <argument
+            android:name="blogPost"
+            app:argType="com.example.cardview.BlogPost" />
+
+    </fragment>
+</navigation>

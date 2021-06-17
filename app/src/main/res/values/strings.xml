@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">cardview</string>
+    <string name="description">Description</string>
+    <string name="timestamp">timestamp</string>
+    <string name="title">Title</string>
+    <string name="label">Label</string>
+    <string name="all">All</string>
+    <string name="popular">Popular</string>
+    <string name="trend">Trend</string>
+    <string name="blog_post_label">blog post label</string>
+</resources>
