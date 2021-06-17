@@ -13,7 +13,9 @@ class BlogPostDetailViewFragment : Fragment(R.layout.blog_post_detail_view_fragm
         super.onViewCreated(view, savedInstanceState)
         detailTextView.text = args.title
         bodyTextView.text = args.blogPost.des
+        detailTimestamp.text = args.blogPost.timestamp
         detailImage.setImageResource(args.blogPost.image)
+
 
     }
 }

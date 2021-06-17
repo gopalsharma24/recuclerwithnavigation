@@ -62,4 +62,6 @@
         android:padding="5dp"
         android:text="@string/label"
         android:textColor="#FFFFFF" />
+
+
 </RelativeLayout>
